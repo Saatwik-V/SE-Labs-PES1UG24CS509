@@ -1,0 +1,109 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="0FFiHxP085huOWPMUQUT">
+    <mxGraphModel dx="1285" dy="884" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="6RPaBaQJNGMuZ2uVaINO-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;EV CHARGING RESERVATION SYSTEM&amp;nbsp;&lt;br&gt;UML USE CASE DIAGRAM&amp;nbsp;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="490" x="170" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="6RPaBaQJNGMuZ2uVaINO-6" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" value="EV Driver" vertex="1">
+          <mxGeometry height="100" width="50" x="80" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="6RPaBaQJNGMuZ2uVaINO-14" parent="1" style="swimlane;startSize=0;" value="" vertex="1">
+          <mxGeometry height="560" width="410" x="220" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="6RPaBaQJNGMuZ2uVaINO-19" parent="6RPaBaQJNGMuZ2uVaINO-14" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Search for compatible charging stations&lt;br&gt;(UC-01)" vertex="1">
+          <mxGeometry height="80" width="150" x="30" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6RPaBaQJNGMuZ2uVaINO-20" parent="6RPaBaQJNGMuZ2uVaINO-14" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="View real time station map.&lt;br&gt;(UC-02)" vertex="1">
+          <mxGeometry height="80" width="150" x="30" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="6RPaBaQJNGMuZ2uVaINO-21" parent="6RPaBaQJNGMuZ2uVaINO-14" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Reserve charging slots.&lt;br&gt;(UC-03)" vertex="1">
+          <mxGeometry height="80" width="150" x="30" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="6RPaBaQJNGMuZ2uVaINO-22" parent="6RPaBaQJNGMuZ2uVaINO-14" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Cancel Reservations before start time of slot.&lt;br&gt;(UC-04)" vertex="1">
+          <mxGeometry height="80" width="150" x="30" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="6RPaBaQJNGMuZ2uVaINO-23" parent="6RPaBaQJNGMuZ2uVaINO-14" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Get turn by turn navigation&lt;br&gt;(UC-05)" vertex="1">
+          <mxGeometry height="80" width="140" x="250" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="6RPaBaQJNGMuZ2uVaINO-24" edge="1" parent="6RPaBaQJNGMuZ2uVaINO-14" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;entryX=0.967;entryY=0.294;entryDx=0;entryDy=0;entryPerimeter=0;" target="6RPaBaQJNGMuZ2uVaINO-20" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="140" as="sourcePoint" />
+            <mxPoint x="190" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6RPaBaQJNGMuZ2uVaINO-25" parent="6RPaBaQJNGMuZ2uVaINO-14" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Process payment&lt;br&gt;(UC-06)" vertex="1">
+          <mxGeometry height="80" width="130" x="255" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="6RPaBaQJNGMuZ2uVaINO-26" edge="1" parent="6RPaBaQJNGMuZ2uVaINO-14" source="6RPaBaQJNGMuZ2uVaINO-21" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.038;entryY=0.656;entryDx=0;entryDy=0;entryPerimeter=0;" target="6RPaBaQJNGMuZ2uVaINO-25" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="270" as="sourcePoint" />
+            <mxPoint x="190" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6RPaBaQJNGMuZ2uVaINO-28" parent="6RPaBaQJNGMuZ2uVaINO-14" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Manage charger availability&lt;br&gt;(UC-07)" vertex="1">
+          <mxGeometry height="80" width="130" x="255" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="6RPaBaQJNGMuZ2uVaINO-38" parent="6RPaBaQJNGMuZ2uVaINO-14" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Update socket availability&lt;br&gt;(UC-08)" vertex="1">
+          <mxGeometry height="80" width="130" x="255" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="6RPaBaQJNGMuZ2uVaINO-27" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" value="Payment gateway" vertex="1">
+          <mxGeometry height="90" width="50" x="740" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="6RPaBaQJNGMuZ2uVaINO-29" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" value="Station Operator&amp;nbsp;" vertex="1">
+          <mxGeometry height="100" width="50" x="740" y="590" as="geometry" />
+        </mxCell>
+        <mxCell id="6RPaBaQJNGMuZ2uVaINO-32" edge="1" parent="1" source="6RPaBaQJNGMuZ2uVaINO-29" style="endArrow=none;html=1;rounded=0;entryX=0.977;entryY=0.65;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;" target="6RPaBaQJNGMuZ2uVaINO-28" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="450" y="540" as="sourcePoint" />
+            <mxPoint x="500" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6RPaBaQJNGMuZ2uVaINO-33" edge="1" parent="1" source="6RPaBaQJNGMuZ2uVaINO-27" style="endArrow=none;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;" target="6RPaBaQJNGMuZ2uVaINO-25" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="450" y="540" as="sourcePoint" />
+            <mxPoint x="500" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6RPaBaQJNGMuZ2uVaINO-34" edge="1" parent="1" source="6RPaBaQJNGMuZ2uVaINO-6" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="6RPaBaQJNGMuZ2uVaINO-19" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="450" y="540" as="sourcePoint" />
+            <mxPoint x="500" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6RPaBaQJNGMuZ2uVaINO-35" edge="1" parent="1" source="6RPaBaQJNGMuZ2uVaINO-6" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="6RPaBaQJNGMuZ2uVaINO-20" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="450" y="540" as="sourcePoint" />
+            <mxPoint x="500" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6RPaBaQJNGMuZ2uVaINO-36" edge="1" parent="1" source="6RPaBaQJNGMuZ2uVaINO-6" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;" target="6RPaBaQJNGMuZ2uVaINO-21" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="170" y="410" as="sourcePoint" />
+            <mxPoint x="500" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6RPaBaQJNGMuZ2uVaINO-37" edge="1" parent="1" source="6RPaBaQJNGMuZ2uVaINO-6" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.027;entryY=0.625;entryDx=0;entryDy=0;entryPerimeter=0;" target="6RPaBaQJNGMuZ2uVaINO-22" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="450" y="540" as="sourcePoint" />
+            <mxPoint x="500" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6RPaBaQJNGMuZ2uVaINO-39" edge="1" parent="1" source="6RPaBaQJNGMuZ2uVaINO-38" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.3333333333333333;entryDx=0;entryDy=0;entryPerimeter=0;" target="6RPaBaQJNGMuZ2uVaINO-29" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="450" y="440" as="sourcePoint" />
+            <mxPoint x="500" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6RPaBaQJNGMuZ2uVaINO-40" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=center;" value="Solid line - Association&lt;br&gt;Dashed line with label- Include and extend" vertex="1">
+          <mxGeometry height="140" width="320" x="250" y="710" as="geometry" />
+        </mxCell>
+        <mxCell id="6RPaBaQJNGMuZ2uVaINO-41" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="NAME : V.SAATWIK&lt;br&gt;SRN:PES1UG24CS509&lt;br&gt;SECTION: I" vertex="1">
+          <mxGeometry height="90" width="140" x="20" y="100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
