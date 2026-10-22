@@ -28,7 +28,10 @@ def log_sighting(connection, species, zone, count, extras=None):
 
 def observer_id(observer):
     """Generate a short observer identifier from a name."""
-    return hashlib.md5(observer.encode(), usedforsecurity=False).hexdigest()[:6]
+    digest = hashlib.md5(
+        observer.encode(), usedforsecurity=False
+    ).hexdigest()
+    return digest[:6]
 
 
 def zone_summary(connection, zone):
@@ -44,8 +47,8 @@ def rarest(connection):
     """Find the species with the lowest total sighting count."""
     query = "SELECT species, SUM(count) FROM sightings GROUP BY species"
     rows = connection.execute(query).fetchall()
-    l = min(rows, key=lambda r: r[1])
-    return l[0]
+    rarest_species = min(rows, key=lambda r: r[1])
+    return rarest_species[0]
 
 
 def main():
