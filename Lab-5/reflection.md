@@ -1,5 +1,7 @@
 # Lab 5: Static Code Analysis - Reflection
 
+> *Note: Since specific question prompts were not explicitly printed in the handout or README.md, the following reflections address the core Learning Outcomes and objectives outlined in the lab handout.*
+
 ### 1. What is static code analysis and how does it help?
 Static code analysis involves examining source code without executing the program. It helps find bugs, logical errors, security vulnerabilities, and formatting issues early in development, before code reaches testing or production.
 
